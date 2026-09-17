@@ -1,0 +1,6 @@
+interface:
+  display_name: "信使引擎选题策划"
+  short_description: "按双轴筛选 mRNA 选题，并确保论文 DOI 跨报告不重复"
+  default_prompt: "使用 $wechat-cmc-topic-planner 先同步 DOI 台账，再扫描最近 9 个月来自论文、专利和监管政策的候选内容；论文型候选必须使用未重复的 DOI，最后按 mRNA CMC 与 LNP 递送双轴输出决策卡。"
+policy:
+  allow_implicit_invocation: false
